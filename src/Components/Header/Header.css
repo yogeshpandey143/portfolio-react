@@ -1,7 +1,7 @@
 .head-container
 {
-  height: 400px;
-  display: flex;
+  height: auto;
+  display: flex; 
   
 }
 .left-container{
@@ -52,6 +52,7 @@
   font-size: larger;
 }
 .btn{
+  background-color:  #002379;
   margin: 10px;
   padding: 10px;
   border: 2px solid #FFFAE6;
@@ -76,7 +77,8 @@
 @media only screen and (max-width: 1100px) {
 
 .head-container{
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(1,1fr); 
  
 }
 
@@ -126,3 +128,4 @@
   
   }  
 }
+

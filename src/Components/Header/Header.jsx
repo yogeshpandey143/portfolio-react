@@ -32,7 +32,10 @@ function Header() {
             <a className="link" href="https://github.com/yogeshpandey143">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a className="link" href="https://www.geeksforgeeks.org/user/yogeshkf8h3/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user">
+            <a
+              className="link"
+              href="https://www.geeksforgeeks.org/user/yogeshkf8h3/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
+            >
               gfg
             </a>
             <button className="btn">Contact me</button>
