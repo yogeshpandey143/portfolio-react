@@ -5,6 +5,7 @@ import MyExperties from "./Components/MyExperties/MyExperties";
 import MyProjects from "./Components/MyProjects/MyProjects";
 import MyService from "./Components/MyService/MyService";
 import NavBar from "./Components/NavBar/NavBar";
+import Scroll from "./Components/Scroller/Scroll";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MyExperties></MyExperties>
       <MyProjects></MyProjects>
       <Footer></Footer>
+      <Scroll></Scroll>
     </>
   );
 }

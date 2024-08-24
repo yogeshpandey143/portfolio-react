@@ -4,7 +4,7 @@ import "./MyExperties.css";
 
 function MyExperties() {
   return (
-    <div className="ex-container">
+    <div id="experties" className="ex-container">
       <div className="ex-head">
         <h5 className="heading">My Experties</h5>
       </div>
@@ -43,9 +43,12 @@ function MyExperties() {
           <div className="inner-left">
             <h5 className="ex-heading">I love these technologies..</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              eos vitae illo deserunt? Earum, non voluptatibus. Voluptatem quos
-              facilis dolores iusto, temporibus quidem! Autem assumenda ipsam.
+              I am skilled software developer with expertise in Java Spring
+              Boot, React.js, JavaScript, web development, and DevOps. With a
+              strong foundation in Java, you have extensive experience in
+              building robust backend systems using the Spring Boot framework,
+              where you excel at designing and implementing scalable APIs and
+              integrating various databases.
             </p>
             <button className="ex-btn">Hire me</button>
           </div>

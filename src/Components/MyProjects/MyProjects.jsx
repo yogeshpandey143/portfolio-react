@@ -14,7 +14,7 @@ function MyProjects() {
       "https://github.com/yogeshpandey143/snaptalk-spring-reactjs";
   }
   return (
-    <div className="service-container">
+    <div id="project" className="service-container">
       <h1 className="heading">My Projects</h1>
       <div className="card-container">
         <div className="card">

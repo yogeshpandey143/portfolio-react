@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Footer.css";
+
 function Footer() {
   return (
     <div className="footer-container">
@@ -34,7 +36,8 @@ function Footer() {
               <a href="">fullstack</a>
             </li>
             <li className="links">
-              <a href=""></a>{" "}
+              <a href=""></a>
+              {}
             </li>
           </ul>
         </div>
@@ -55,6 +58,11 @@ function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="copyright-container">
+        <h5 className="copyright">
+          All copyright is reserved for yogesh pandey
+        </h5>
       </div>
     </div>
   );

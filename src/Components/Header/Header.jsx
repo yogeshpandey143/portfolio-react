@@ -10,17 +10,32 @@ import {
 import image from "../Pic/profile1.png";
 
 function Header() {
+  function redirectToEmail() {
+    const email = "yogeshknit99@gmail.com" // Recipient's email address
+    const subject = "Subject Here"; // Email subject
+    const body = "Hello,\n\nThis is the body of the email."; // Email body
+
+    // Create mailto link
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
+    // Redirect to the mailto link
+    window.location.href = mailtoLink;
+  }
   return (
-    <div className="head-container">
+    <div id="header" className="head-container">
       <div className="left-container">
         <div className="left-inner">
           <h5 className="greet-heading">Hi, i am...</h5>
           <h1 className="name">Yogesh Pandey</h1>
           <h5 className="greet-heading">And i am a backend Developer</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            eos vitae illo deserunt? Earum, non voluptatibus. Voluptatem quos
-            facilis dolores iusto, temporibus quidem! Autem assumenda ipsam.
+            An ambitious and enthusiastic individual specializing in Computer
+            Application from Kamal Nehru institute of technology. With strong
+            foundation in programming languages like Java, JavaScript also
+            demonstrated my skills in developing real-world applications using
+            Springboot, hibernate,CRUD operations,Microservices.
           </p>
           <div className="social-links">
             <a className="link" href="https://www.linkedin.com/in/yogi9956/">
@@ -38,7 +53,9 @@ function Header() {
             >
               gfg
             </a>
-            <button className="btn">Contact me</button>
+            <button className="btn" onClick={redirectToEmail}>
+              Contact me
+            </button>
           </div>
         </div>
       </div>

@@ -9,13 +9,11 @@ import {
 
 function MyService() {
   return (
-    <div className="service-container">
+    <div id="service" className="service-container">
       <h1 className="heading">My Services</h1>
       <div className="card-container">
         <div className="card">
-          <div className="card-logo">
-            <FontAwesomeIcon icon={faLinkedin} />
-          </div>
+          <div className="card-logo">Frontend</div>
           <h5 className="card-heading"></h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
@@ -26,9 +24,7 @@ function MyService() {
           <button className="card-btn">read more</button>
         </div>
         <div className="card">
-          <div className="card-logo">
-            <FontAwesomeIcon icon={faTwitter} />
-          </div>
+          <div className="card-logo">Backend</div>
           <h5 className="card-heading"></h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
@@ -39,9 +35,7 @@ function MyService() {
           <button className="card-btn">read more</button>
         </div>
         <div className="card">
-          <div className="card-logo">
-            <FontAwesomeIcon icon={faGithub} />
-          </div>
+          <div className="card-logo">Full Stack Dev</div>
           <h5 className="card-heading"></h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
